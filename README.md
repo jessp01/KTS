@@ -16,6 +16,8 @@ It includes helpful default behavior like auto-detecting media type during
 To install dependencies, run `pip install -r requirements.txt`.
 To run, `python server.py`.
 
+### Note that on Unix/Linux machine, one must run this with superuser [root] privileges.
+
 `app` in server.py is a WSGI application, so any server that can work
   with WSGI applications will work with this too.
  For example, this may be started via gunicorn:
